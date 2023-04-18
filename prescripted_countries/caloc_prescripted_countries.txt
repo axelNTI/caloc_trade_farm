@@ -1,17 +1,15 @@
 # Caloctoran
 caloctoran = {
-	name = "EMPIRE_DESIGN_caloctoran"
-	adjective = "PRESCRIPTED_adjective_caloctoran"
+	name = "The Caloctoran Trade & Farm Group"
+	adjective = "Caloctoran"
 	spawn_enabled = always
-
-	ship_prefix = "PRESCRIPTED_ship_prefix_caloctoran"
-
+	ship_prefix = "TMF"
 	species = {
 		class = "PLANT"
 		portrait = "pla6"
-		name = "PRESCRIPTED_species_name_caloctoran"
-		plural = "PRESCRIPTED_species_plural_caloctoran"
-		adjective = "PRESCRIPTED_species_adjective_caloctoran"
+		name = "Caloctora"
+		plural = "Caloctorae"
+		adjective = "Caloctoran"
 		name_list = "PLANT"
 		trait = "trait_aquatic"
 		trait = "trait_agrarian"
@@ -19,43 +17,39 @@ caloctoran = {
 		trait = "trait_unruly"
 		trait = "trait_nonadaptive"
 	}
-
 	room = "personality_spiritual_seekers_room"
-
 	authority = "auth_dictatorial"
-	civics = { "civic_agrarian_idyll" "civic_anglers" }
+	civics = {
+		"civic_agrarian_idyll"
+		"civic_anglers"
+	}
 	government = gov_irenic_dictatorship
 	origin = "origin_ocean_paradise"
-
 	ethic = "ethic_pacifist"
 	ethic = "ethic_fanatic_authoritarian"
-
-	planet_name = "PRESCRIPTED_planet_name_caloctoran"
+	planet_name = "Caloctora"
 	planet_class = "pc_ocean"
-	system_name = "PRESCRIPTED_system_name_caloctoran"
-
+	system_name = "Caloc"
 	graphical_culture = "plantoid_01"
 	city_graphical_culture = "plantoid_01"
-
-	empire_flag={
-		icon={
-			category="ornate"
-			file="flag_ornate_13.dds"
+	empire_flag = {
+		icon = {
+			category = "ornate"
+			file = "flag_ornate_13.dds"
 		}
-		background={
-			category="backgrounds"
-			file="flag_BG_24.dds"
+		background = {
+			category = "backgrounds"
+			file = "flag_BG_24.dds"
 		}
-		colors={
+		colors = {
 			"blue"
 			"frog_green"
 			"null"
 			"null"
 		}
 	}
-
 	ruler = {
-		name = "PRESCRIPTED_ruler_name_caloctoran"
+		name = "Petals of Purple"
 		gender = female
 		portrait = "pla6"
 		texture = 1

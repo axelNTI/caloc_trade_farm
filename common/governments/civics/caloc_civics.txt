@@ -1,6 +1,5 @@
-#Unique Civic
-civic_corvee_system = {
-	description = "civic_corvee_system_effects"
+civic_caloc_system  = {
+	description = "civic_caloc_system_effects"
 	potential = {
 		ethics = {
 			NOT = {
@@ -13,43 +12,7 @@ civic_corvee_system = {
 			}
 		}
 	}
-	possible = {
-		ethics = {
-			NOR = {
-				text = civic_tooltip_not_egalitarian
-				value = ethic_egalitarian
-				value = ethic_fanatic_egalitarian
-			}
-		}
-		civics = {
-			NOT = {
-				value = civic_free_haven
-			}
-		}
-	}
-	random_weight = {
-		base = @civic_default_random_weight
-	}
-	ai_weight = {
-		base = @ai_civic_default_base_weight
-		modifier = {
-			factor = @ai_civic_personality_match_factor
-			OR = {
-				has_ai_personality = ruthless_capitalists
-				has_ai_personality = hegemonic_imperialists
-				has_ai_personality = slaving_despots
-			}
-		}
-		modifier = {
-			factor = @ai_civic_personality_mismatch_factor
-			OR = {
-				has_ai_personality = peaceful_traders
-				has_ai_personality = democratic_crusaders
-				has_ai_personality = slaving_despots
-			}
-		}
-	}
-	modifier = {
-		pop_growth_from_immigration = 0.15
+	modifiers = {
+		country_government_civic_points_add = 1
 	}
 }

@@ -22,6 +22,7 @@ caloctoran = {
 	civics = {
 		"civic_agrarian_idyll"
 		"civic_anglers"
+		"civic_caloc_system"
 	}
 	government = gov_irenic_dictatorship
 	origin = "origin_ocean_paradise"

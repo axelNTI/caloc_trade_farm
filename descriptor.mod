@@ -6,4 +6,4 @@ tags={
 	"Overhaul"
 }
 name="The Caloctoran Trade & Farm Group"
-supported_version="3.7.4"
+supported_version="3.7.*"

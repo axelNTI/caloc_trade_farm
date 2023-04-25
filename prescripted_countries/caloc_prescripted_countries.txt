@@ -13,7 +13,7 @@ caloctoran = {
 		name_list = "PLANT"
 		trait = "trait_aquatic"
 		trait = "trait_agrarian"
-		trait = "trait_budding"
+		trait = "trait_plantoid_budding"
 		trait = "trait_unruly"
 		trait = "trait_nonadaptive"
 	}
@@ -22,7 +22,7 @@ caloctoran = {
 	civics = {
 		"civic_agrarian_idyll"
 		"civic_anglers"
-		"civic_caloc_system"
+		#"civic_caloc_system"
 	}
 	government = gov_irenic_dictatorship
 	origin = "origin_ocean_paradise"

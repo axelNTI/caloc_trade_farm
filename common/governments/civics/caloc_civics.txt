@@ -1,4 +1,4 @@
-civic_caloc_system  = {
+civic_caloc_system = {
 	description = "civic_caloc_system_effects"
 	potential = {
 		ethics = {
@@ -12,7 +12,7 @@ civic_caloc_system  = {
 			}
 		}
 	}
-	modifiers = {
+	modifier = {
 		country_government_civic_points_add = 1
 	}
 }

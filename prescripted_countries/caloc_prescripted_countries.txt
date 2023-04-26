@@ -22,10 +22,9 @@ caloctoran = {
 	civics = {
 		"civic_agrarian_idyll"
 		"civic_anglers"
-		#"civic_caloc_system"
 	}
 	government = gov_irenic_dictatorship
-	origin = "origin_ocean_paradise"
+	origin = "origin_caloc_ocean_paradise"
 	ethic = "ethic_pacifist"
 	ethic = "ethic_fanatic_authoritarian"
 	planet_name = "Caloctora"

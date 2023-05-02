@@ -1,0 +1,14 @@
+namespace = origin
+country_event = {
+	id = origin.4444
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		if = {
+			limit = {
+				has_origin = origin_caloc_ocean_paradise
+			}
+			force_add_civic = civic_caloc_system
+		}
+	}
+}

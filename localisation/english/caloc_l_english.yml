@@ -1,1 +1,7 @@
-﻿origin_caloc_ocean_paradise:0 "Caloctoran Ocean Paradise"
+﻿l_english:
+  origin_caloc_ocean_paradise:0 "Caloctoran Ocean Paradise"
+  origin_caloc_ocean_paradise_desc:0 "Since its birth, this civilization has enjoyed peace in a generous environment with no natural enemies, enabling unhindered growth and opulence."
+  origin_caloc_ocean_paradise_effects:1 "- Homeworld is an §H$pc_ocean$§! (size: £planetsize£ 30) with rich §H$food$§! deposits and bonuses to §H$MOD_POP_HAPPINESS$§!, §H$MOD_POP_GROWTH_SPEED$§!, and §HOutput§!.\n- Guaranteed Habitable Planets are instead §H$pc_frozen$s§!."
+  
+  civic_caloc_system:0 "The Caloctoran System"
+  civic_caloc_system_desc:0 "Description is WIP"

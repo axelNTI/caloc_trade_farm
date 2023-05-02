@@ -4,29 +4,24 @@ origin_caloc_ocean_paradise = {
 	picture = GFX_origin_ocean_paradise
 	flags = {
 		custom_start_screen
-		caloc_empire
 	}
-
 	starting_colony = pc_ocean
 	habitability_preference = pc_ocean
-	initializers = { ocean_paradise_start }
-
-	playable = no
-
+	initializers = {
+		ocean_paradise_start
+	}
 	possible = {
 		authority = {
-			NOT = { value = auth_machine_intelligence }
+			NOT = {
+				value = auth_machine_intelligence
+			}
 		}
 	}
-
 	description = origin_ocean_paradise_effects
-
 	traits = {
 		trait = trait_aquatic
 	}
-
 	advanced_start = yes
-
 	random_weight = {
 		base = 5
 	}

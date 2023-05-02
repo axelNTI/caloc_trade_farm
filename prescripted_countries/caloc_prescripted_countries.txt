@@ -30,6 +30,7 @@ caloctoran = {
 	planet_name = "Caloctora"
 	planet_class = "pc_ocean"
 	system_name = "Caloc"
+	initializer = "ocean_paradise_start"
 	graphical_culture = "plantoid_01"
 	city_graphical_culture = "plantoid_01"
 	empire_flag = {
@@ -55,5 +56,8 @@ caloctoran = {
 		texture = 1
 		clothes = 5
 		leader_class = ruler
+	}
+	flags = {
+		caloctoran_empire
 	}
 }

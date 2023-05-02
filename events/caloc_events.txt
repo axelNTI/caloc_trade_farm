@@ -12,3 +12,28 @@ country_event = {
 		}
 	}
 }
+
+namespace = action
+
+planet_event = {
+	id = action.4445
+	hide_window = yes
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_orbital_bombardment_stance = caloc
+		habitable_planet = yes
+	}
+
+	immediate = {
+		owner = {
+			add_static_war_exhaustion = {
+				attacker = from
+				location = root
+				value_for_planet_destruction = 0.5
+			}
+		}
+		change_pc = pc_ocean
+	}
+}

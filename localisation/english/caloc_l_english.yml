@@ -1,7 +1,47 @@
 ﻿l_english:
-  origin_caloc_ocean_paradise:0 "Caloctoran Ocean Paradise"
-  origin_caloc_ocean_paradise_desc:0 "Since its birth, this civilization has enjoyed peace in a generous environment with no natural enemies, enabling unhindered growth and opulence."
-  origin_caloc_ocean_paradise_effects:1 "- Homeworld is an §H$pc_ocean$§! (size: £planetsize£ 30) with rich §H$food$§! deposits and bonuses to §H$MOD_POP_HAPPINESS$§!, §H$MOD_POP_GROWTH_SPEED$§!, and §HOutput§!.\n- Guaranteed Habitable Planets are instead §H$pc_frozen$s§!."
-  
+  bombardment_caloc:0 "Flooding"
+  bombardment_caloc_desc:0 "This bombardment will flood any planet and kill its inhabitants if they are not adapted to the quickly changing situation"
+
   civic_caloc_system:0 "The Caloctoran System"
-  civic_caloc_system_desc:0 "Description is WIP"
+  civic_caloc_system_desc:0 "The Caloctorans are experts on utilizing their lush nature to benefit all aspects of their society."
+  civic_tooltip_caloc_system_effects:3 "On §YWet§! worlds, gain additional jobs such as £job_caloc_soldier£ §Y$job_caloc_soldier_plural$§! and £job_caloc_environmentalist£ §Y$job_caloc_environmentalist_plural$§!.\n§Y$job_caloc_soldier_plural$§! increase £mod_country_naval_cap_add£ §Y$MOD_COUNTRY_NAVAL_CAP_ADD$§! and £mod_planet_stability_add£ §Y$PLANET_STABILITY_TITLE$§! as well as spawning £defense_army£ §YDefense Armies§! and decreasing £crime£ §Y$PLANET_CRIME_TITLE$§!.\n§Y$job_caloc_environmentalist_plural$§! increase £mod_pop_growth_speed£ §Y$MOD_POP_GROWTH_SPEED$§!, £mod_planet_pop_assembly_organic_mult£ §Y$MOD_PLANET_POP_ASSEMBLY_ORGANIC_MULT$§! and £mod_pop_environment_tolerance£ §YPlanet Habitability§! while decreasing §Y£mod_pop_housing_usage_mult£ $MOD_POP_HOUSING_USAGE_MULT$§!."
+
+  job_caloc_soldier:0 "Bush Soldier"
+  job_caloc_soldier_plural:0 "Bush Soldiers"
+  job_caloc_soldier_desc:0 "These Warriors are trained to fight in the dense vegitation of the Caloctoran farms."
+  mod_job_caloc_soldier_add:0 "Bush Soldier Jobs"
+
+  job_caloc_environmentalist:0 "Environmentalist"
+  job_caloc_environmentalist_plural:0 "Environmentalists"
+  job_caloc_environmentalist_desc:0 "These caretakers are experts on the vast variety of herbs that the Caloctoran farms have and how to best apply them for society"
+  mod_job_caloc_environmentalist_add:0 "Environmentalist Jobs"
+
+  trade_conversion_caloc_name:0 "$trade_policy_caloc$"
+  trade_policy_caloc:0 "Caloctoran Trade"
+  trade_policy_caloc_desc:0 "The Caloctorae have long been an agrarian society. The tradition to trade their excess food for other commodities arose long ago. Now that tradition is used to gain the resources they do not produce.\n\n§EEach collected £trade_value£ §YTrade Value§! earns us £energy£ §Y0.4§!, £unity£ §Y0.2§! and £physics_research£ £society_research£ £engineering_research£ §Y0.1§!§!"
+
+  Caloctora:0 "Caloctora"
+  Caloctorae:0 "Caloctorae"
+  Caloctoran:0 "Caloctoran"
+  Caloc:0 "Caloc"
+  TMF:0 "TMF"
+
+  war_with_caloc:0 "The Unwinnable War"
+
+
+
+  contact.4447.name:0 "Another Trade-partner"
+  contact.4447.desc:0 "We found an empire in this galaxy. Our overabundance of food will soon be turned to valuable resoureces."
+  contact.4447.a:0 "Great! More Trade!"
+
+  contact.4448.name:0 "They seem strong"
+  contact.4448.desc:0 "We found an empire in this galaxy. Yet they are far stronger than we are. They seem friendly enough. Let us just hope that it stays that way. We would not last long in a war."
+  contact.4448.a:0 "Let us hope"
+
+  war.4450.name:0 "War"
+  war.4450.desc:0 "We are at war with another empire. We should be strong enough to win this, yet our trade is bound to take a hit from this. Hopefully this is not the start of an endless series of wars."
+  war.4450.a:0 "A Trade-partner lost"
+
+  war.4451.name:0 "The Unwinnable War"
+  war.4451.desc:0 "We are at war with The Caloctoran Empire. It is not looking good for us. This may be the end for our empire. Hopefully we pull through in the end."
+  war.4451.a:0 "Survive"

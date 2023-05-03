@@ -1,5 +1,62 @@
 on_game_start_country = {
 	events = {
 		origin.4444
+		game_start.33
+		game_start.10
+		necroids.4
+		clones.2
+		clones.3
+		necroids.255
+		origin.5605
+		toxoids.7000
+		origin.4005
+		origin.5081
+	}
+}
+
+on_planet_zero_pops = {
+	events = {
+		action.4445
+		action.81
+		distar.1015
+		preftl.201
+	}
+}
+
+on_post_communications_established = {
+	events = {
+		contact.4446
+		action.11
+		first_contact.1050
+		anomaly.4016
+		factions.11
+		action.110
+	}
+}
+
+on_war_beginning = {
+	events = {
+		war.4449
+		action.41
+		factions.13
+		origin.29
+		emperor.370
+		origin.6080
+		origin.5135
+		origin.5146
+		origin.5147
+		utopia.2661
+		origin.4141
+		action.640
+		fircon.5052
+	}
+}
+
+on_war_ended = {
+	events = {
+		war.4452
+		fallen_empires.14
+		utopia.2660
+		origin.6256
 	}
 }

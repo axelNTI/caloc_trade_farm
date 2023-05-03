@@ -1,0 +1,6 @@
+war_with_caloc = {
+	ship_fire_rate_mult = 0.25
+	ship_weapon_damage = 0.25
+	planet_jobs_produces_mult = 0.25
+	country_influence_produces_mult = 0.25
+}

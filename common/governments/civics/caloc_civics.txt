@@ -1,6 +1,7 @@
 civic_caloc_system = {
+	pickable_at_start = no
 	modification = no
-	description = "civic_caloc_system_effects"
+	description = "civic_tooltip_caloc_system_effects"
 	modifier = {
 		country_government_civic_points_add = 1
 	}

@@ -9,23 +9,20 @@ country_event = {
 				is_caloc_empire = yes
 			}
 			force_add_civic = civic_caloc_system
+			save_global_event_target_as = caloc_country
 		}
 	}
 }
 
 namespace = action
-
 planet_event = {
 	id = action.4445
 	hide_window = yes
-
 	is_triggered_only = yes
-
 	trigger = {
 		has_orbital_bombardment_stance = caloc
 		habitable_planet = yes
 	}
-
 	immediate = {
 		owner = {
 			add_static_war_exhaustion = {
@@ -35,5 +32,167 @@ planet_event = {
 			}
 		}
 		change_pc = pc_ocean
+	}
+}
+
+namespace = contact
+country_event = {
+	id = contact.4446
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			this = {
+				is_caloc_empire = yes
+			}
+			from = {
+				is_caloc_empire = yes
+			}
+		}
+	}
+	immediate = {
+		if = {
+			limit = {
+				this = {
+					is_caloc_empire = yes
+				}
+			}
+			this = {
+				country_event = {
+					id = contact.4447
+					days = 10
+				}
+			}
+			from = {
+				country_event = {
+					id = contact.4448
+					days = 10
+				}
+			}
+		}
+		else = {
+			from = {
+				country_event = {
+					id = contact.4447
+					days = 10
+				}
+			}
+			this = {
+				country_event = {
+					id = contact.4448
+					days = 10
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = contact.4447
+	title = contact.4447.name
+	is_triggered_only = yes
+	desc = contact.4447.desc
+	option = {
+		name = contact.4447.a
+	}
+}
+
+country_event = {
+	id = contact.4448
+	title = contact.4448.name
+	is_triggered_only = yes
+	desc = contact.4448.desc
+	option = {
+		name = contact.4448.a
+	}
+}
+
+namespace = war
+country_event = {
+	id = war.4449
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		from = {
+			OR = {
+				AND = {
+					is_war_participant = {
+						who = event_target:caloc_country
+						side = defenders
+					}
+					is_war_participant = {
+						who = root
+						side = attackers
+					}
+				}
+				AND = {
+					is_war_participant = {
+						who = event_target:caloc_country
+						side = attackers
+					}
+					is_war_participant = {
+						who = root
+						side = defenders
+					}
+				}
+			}
+		}
+	}
+	immediate = {
+		if = {
+			limit = {
+				root = {
+					is_caloc_empire = yes
+				}
+			}
+			country_event = {
+				id = war.4450
+			}
+		}
+		else = {
+			country_event = {
+				id = war.4451
+			}
+		}
+	}
+}
+
+country_event = {
+	id = war.4450
+	is_triggered_only = yes
+	title = war.4450.name
+	desc = war.4450.desc
+	option = {
+		name = war.4450.a
+	}
+}
+
+country_event = {
+	id = war.4451
+	title = war.4451.name
+	desc = war.4451.desc
+	is_triggered_only = yes
+	option = {
+		name = war.4451.a
+		add_modifier = {
+			modifier = war_with_caloc
+			days = -1
+		}
+	}
+}
+
+country_event = {
+	id = war.4452
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		OR = {
+			root = {
+				is_caloc_empire = yes
+			}
+			from = {
+				is_caloc_empire = yes
+			}
+		}
 	}
 }

@@ -17,6 +17,7 @@
 		pop_growth_speed = 0.05
 		planet_pop_assembly_organic_mult = 0.05
 		pop_environment_tolerance = 0.025
+		pop_housing_usage_mult = -0.01
 	}
 
 	resources = {
@@ -24,14 +25,6 @@
 		upkeep = {
 			consumer_goods = 1
 		}
-	}
-
-	triggered_planet_modifier = {
-		potential = {
-			always = yes
-		}
-		planet_amenities_add = 5
-		mult = value:scripted_modifier_mult|MODIFIER|pop_job_amenities_mult|
 	}
 
 	weight = {
@@ -54,14 +47,6 @@
 			factor = 0.5
 			is_enslaved = yes
 			has_slavery_type = { type = slavery_indentured }
-		}
-		modifier = {
-			factor = 10
-			NOT = { has_job = caloc_environmentalist }
-			planet = {
-				free_amenities < 0
-				has_available_jobs = caloc_environmentalist
-			}
 		}
 	}
 }

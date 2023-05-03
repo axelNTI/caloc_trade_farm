@@ -1,0 +1,112 @@
+trade_policy = {
+	potential = {
+		NOT = {
+			has_ethic = ethic_gestalt_consciousness
+		}
+	}
+	option = {
+		name = "trade_policy_default"
+		AI_weight = {
+			factor = 0
+		}
+	}
+	option = {
+		name = "trade_policy_consumer_goods"
+		potential = {
+			OR = {
+				has_federation = no
+				AND = {
+					has_federation = yes
+					federation = {
+						NOT = {
+							has_federation_perk = trade_federation_passive
+						}
+					}
+				}
+			}
+			has_tradition = tr_mercantile_adaptive_economic_policies
+		}
+		policy_flags = {
+			trade_conversion_consumer_goods
+		}
+		modifier = {
+		}
+		AI_weight = {
+			factor = 1
+		}
+	}
+	option = {
+		name = "trade_policy_unity"
+		potential = {
+			OR = {
+				has_federation = no
+				AND = {
+					has_federation = yes
+					federation = {
+						NOR = {
+							has_federation_perk = trade_federation_passive
+							has_federation_perk = unity_trade_1
+						}
+					}
+				}
+			}
+			has_tradition = tr_mercantile_adaptive_economic_policies
+		}
+		policy_flags = {
+			trade_conversion_unity
+		}
+		modifier = {
+		}
+		AI_weight = {
+			factor = 0
+		}
+	}
+	option = {
+		name = "trade_policy_trade_league"
+		potential = {
+			has_federation = yes
+			federation = {
+				has_federation_perk = trade_federation_passive
+			}
+		}
+		policy_flags = {
+			trade_conversion_trade_league
+		}
+		modifier = {
+		}
+		AI_weight = {
+			factor = 1000
+		}
+	}
+	option = {
+		name = "trade_policy_holy_covenant"
+		potential = {
+			has_federation = yes
+			federation = {
+				has_federation_perk = unity_trade_1
+			}
+		}
+		policy_flags = {
+			trade_conversion_holy_covenant
+		}
+		modifier = {
+		}
+		AI_weight = {
+			factor = 1000
+		}
+	}
+	option = {
+		name = "trade_policy_caloc"
+		potential = {
+			has_origin = origin_caloc_ocean_paradise
+		}
+		policy_flags = {
+			trade_conversion_caloc
+		}
+		modifier = {
+		}
+		AI_weight = {
+			factor = 10000
+		}
+	}
+}

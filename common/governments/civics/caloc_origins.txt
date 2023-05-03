@@ -10,10 +10,6 @@ origin_caloc_ocean_paradise = {
 	initializers = {
 		ocean_paradise_start
 	}
-	playable = {
-		#Har inte fixat
-		always = no
-	}
 	description = origin_ocean_paradise_effects
 	traits = {
 		trait = trait_aquatic

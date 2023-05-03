@@ -1,7 +1,7 @@
 caloc = {
 	trigger = {
 		owner = {
-			has_origin = origin_caloc_ocean_paradise
+			is_caloc_empire = yes
 		}
 	}
 	default = no

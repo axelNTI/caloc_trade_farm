@@ -98,7 +98,7 @@ trade_policy = {
 	option = {
 		name = "trade_policy_caloc"
 		potential = {
-			has_origin = origin_caloc_ocean_paradise
+			is_caloc_empire = yes
 		}
 		policy_flags = {
 			trade_conversion_caloc

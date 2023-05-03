@@ -6,7 +6,7 @@ country_event = {
 	immediate = {
 		if = {
 			limit = {
-				has_origin = origin_caloc_ocean_paradise
+				is_caloc_empire = yes
 			}
 			force_add_civic = civic_caloc_system
 		}

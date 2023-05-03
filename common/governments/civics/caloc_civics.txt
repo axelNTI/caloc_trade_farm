@@ -1,11 +1,6 @@
 civic_caloc_system = {
 	modification = no
 	description = "civic_caloc_system_effects"
-	possible = {
-		origin = {
-			value = origin_caloc_ocean_paradise
-		}
-	}
 	modifier = {
 		country_government_civic_points_add = 1
 	}

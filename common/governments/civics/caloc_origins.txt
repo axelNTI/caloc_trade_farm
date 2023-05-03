@@ -1,18 +1,18 @@
-origin_caloc_ocean_paradise = {
-	is_origin = yes
-	icon = "gfx/interface/icons/origins/origins_ocean_paradise.dds"
-	picture = GFX_origin_ocean_paradise
-	flags = {
-		custom_start_screen
-	}
-	starting_colony = pc_ocean
-	habitability_preference = pc_ocean
-	initializers = {
-		ocean_paradise_start
-	}
-	description = origin_ocean_paradise_effects
-	traits = {
-		trait = trait_aquatic
-	}
-	advanced_start = yes
-}
+#origin_caloc_ocean_paradise = {
+#	is_origin = yes
+#	icon = "gfx/interface/icons/origins/origins_ocean_paradise.dds"
+#	picture = GFX_origin_ocean_paradise
+#	flags = {
+#		custom_start_screen
+#	}
+#	starting_colony = pc_ocean
+#	habitability_preference = pc_ocean
+#	initializers = {
+#		ocean_paradise_start
+#	}
+#	description = origin_ocean_paradise_effects
+#	traits = {
+#		trait = trait_aquatic
+#	}
+#	advanced_start = yes
+#}

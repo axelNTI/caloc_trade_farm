@@ -24,13 +24,13 @@ caloctoran = {
 		"civic_anglers"
 	}
 	government = gov_irenic_dictatorship
-	origin = "origin_caloc_ocean_paradise"
+	origin = "origin_ocean_paradise"
 	ethic = "ethic_pacifist"
 	ethic = "ethic_fanatic_authoritarian"
 	planet_name = "Caloctora"
 	planet_class = "pc_ocean"
 	system_name = "Caloc"
-	initializer = "ocean_paradise_start"
+	initializer = "caloc_paradise_start"
 	graphical_culture = "plantoid_01"
 	city_graphical_culture = "plantoid_01"
 	empire_flag = {
